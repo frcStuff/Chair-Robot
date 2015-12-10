@@ -31,6 +31,13 @@ public class Robot1 extends SimpleRobot
     {
         int i = stick.getValue();
         
+        //4 = move left
+        //5 = move right
+        
+        //3 = 30ft
+        //2 = 20ft
+        //1 = 10ft
+        
         switch(i)
         {
             case 6:

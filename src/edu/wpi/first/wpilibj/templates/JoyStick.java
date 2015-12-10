@@ -18,6 +18,16 @@ public class JoyStick
         
     }
     
+    public double getX()
+    {
+        return stick.getX();
+    }
+    
+    public double getY()
+    {
+        return stick.getY();
+    }
+    
     Joystick stick = new Joystick(1);
     public int getValue()
     {
